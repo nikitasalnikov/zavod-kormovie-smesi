@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="clock1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="111.86622"
+     inkscape:cy="561.25984"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5159"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5157" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g8697">
+      <g
+         style="fill:none;stroke:#000000"
+         id="g8644"
+         transform="matrix(5.1799267,0,0,5.1799267,3.0648816,37.0855)">
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="M 19.275391,0 C 8.6414434,0 0,8.6414434 0,19.275391 c 0,10.633833 8.6414421,19.27539 19.275391,19.27539 10.633835,0 19.27539,-8.641555 19.27539,-19.27539 C 38.550781,8.6414421 29.909224,0 19.275391,0 Z m 0,2 c 9.552946,0 17.27539,7.7223193 17.27539,17.275391 0,9.552945 -7.722445,17.27539 -17.27539,17.27539 C 9.7223193,36.550781 2,28.828337 2,19.275391 2,9.722318 9.722318,2 19.275391,2 Z"
+           id="path8632" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 19.275391,7.3105469 a 1,1 0 0 0 -1,1 V 19.275391 a 1.0001,1.0001 0 0 0 0.552734,0.894531 l 7.310547,3.65625 a 1,1 0 0 0 1.341797,-0.447266 1,1 0 0 0 -0.447266,-1.341797 L 20.275391,18.658203 V 8.3105469 a 1,1 0 0 0 -1,-1 z"
+           id="path8634" />
+      </g>
+    </g>
+  </g>
+</svg>

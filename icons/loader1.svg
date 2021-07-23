@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="loader1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="111.86622"
+     inkscape:cy="561.25984"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient5159"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5157" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g9103">
+      <g
+         style="fill:none;stroke:#000000"
+         id="g9008"
+         transform="matrix(5.2858105,0,0,5.2858105,2.7246638,22.116444)">
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 19.275391,0 a 1,1 0 0 0 -1,1 v 7.3105469 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 1 a 1,1 0 0 0 -1,-1 z"
+           id="path8978" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 19.275391,29.240234 a 1,1 0 0 0 -1,1 v 7.310547 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 v -7.310547 a 1,1 0 0 0 -1,-1 z"
+           id="path8980" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 6.3554687,5.3535156 a 1,1 0 0 0 -0.7070312,0.2929688 1,1 0 0 0 0,1.4160156 l 5.1718755,5.171875 a 1,1 0 0 0 1.414062,0 1,1 0 0 0 0,-1.414062 L 7.0625,5.6464844 A 1,1 0 0 0 6.3554687,5.3535156 Z"
+           id="path8982" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 26.318359,26.318359 a 1,1 0 0 0 0,1.414063 l 5.171875,5.171875 a 1,1 0 0 0 1.414063,0 1,1 0 0 0 0,-1.414063 l -5.171875,-5.171875 a 1,1 0 0 0 -1.414063,0 z"
+           id="path8984" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 1,18.275391 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 7.3105469 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+           id="path8986" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 30.242187,18.275391 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 7.310547 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+           id="path8988" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 10.820313,26.318359 -5.1718755,5.171875 a 1,1 0 0 0 0,1.414063 1,1 0 0 0 1.4140625,0 l 5.171875,-5.171875 a 1,1 0 0 0 0,-1.414063 1,1 0 0 0 -1.414062,0 z"
+           id="path8990" />
+        <path
+           style="color:#000000;fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+           d="m 31.490234,5.6464844 -5.171875,5.1738286 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.414063,0 L 32.904297,7.0625 a 1,1 0 0 0 0,-1.4160156 1,1 0 0 0 -1.414063,0 z"
+           id="path8992" />
+      </g>
+    </g>
+  </g>
+</svg>
