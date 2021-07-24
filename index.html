@@ -20,6 +20,7 @@
                 <div class="container">
                     <div class="header__nav-content">
                         <a href="index.html"><img src="images/logo.png" alt="Logo" class="header__nav-logo"></a>
+                        <div class="header__nav-bg"></div>
                         <ul class="header__nav-lists">
                             <li class="header__nav-list"><a href="#">Продукция</a></li>
                             <li class="header__nav-list"><a href="#">О компании</a></li>
@@ -30,7 +31,18 @@
                             <li class="header__nav-list"><a href="#">Новости</a></li>
                             <li class="header__nav-list"><a href="#">Контакты</a></li>
                         </ul>
-                        <a href="#" class="header__nav-btn">Заказать звонок</a>
+
+                        <div class="header__nav-btns">
+                            <a href="#" class="header__list-btn">Заказать звонок</a>
+                            <div class="nav__burger">
+                                <div class="burger__menu">
+                                    <span class="menu__top"></span>
+                                    <span class="menu__underTop"></span>
+                                    <span class="menu__bottom"></span>
+                                    <span class="menu__underBottom"></span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="header__info">
                         <h1 class="header__title">производство и продажа рапсового масла и жмыха</h1>
@@ -121,7 +133,7 @@
                         </div>
                         <div class="main__technology-img">
                             <img class="main__technology-img_bg" src="images/main__info-img_bg.png" alt="">
-                            <img src="images/main__info-img.png" alt="">
+                            <img src="images/main__info-img.png" alt="" class="main__info-img">
                         </div>
                     </div>
                 </div>
@@ -280,7 +292,7 @@
                         <img src="images/complex__right.png" alt="">
                     </div>
                 </div>
-                <p class="main__description">Основные изменения за 8 месяцев</p>
+                <p class="main__description desc__bottom">Основные изменения за 8 месяцев</p>
                 <div class="main__changes">
                     <div class="main__changes-left">
                         <img class="main__changes-img" src="images/complex__left-img.png" alt="">
@@ -426,25 +438,32 @@
                 <div class="main__factory">
                     <div class="factory__info"></div>
                     <div class="factory__info-cards">
-                        <div class="factory__info-card"></div>
-                        <div class="factory__info-card"></div>
-                        <div class="factory__info-card"></div>
-                    </div>
-                    <div class="factory__under-cards">
-                        <div class="facory__under-card">
-                            <h2>685 кв.м</h2>
-                            <p>площадь производства</p>
+                        <div class="factory__info-card">
+                            <div class="factory__info-left"></div>
+                            <div class="facory__under-card">
+                                <h2>685 кв.м</h2>
+                                <p>площадь производства</p>
+                            </div>
                         </div>
-                        <div class="facory__under-card">
-                            <h2>20 000 кв.м</h2>
-                            <p>для производства жмыха и масла</p>
+
+                        <div class="factory__info-card">
+                            <div class="factory__info-left"></div>
+                            <div class="facory__under-card">
+                                <h2>20 000 кв.м</h2>
+                                <p>для производства жмыха и масла</p>
+                            </div>
                         </div>
-                        <div class="facory__under-card">
-                            <h2>1400 кв.м</h2>
-                            <p>площадь складских помещений</p>
+
+                        <div class="factory__info-card">
+                            <div class="factory__info-left"></div>
+                            <div class="facory__under-card">
+                                <h2>1400 кв.м</h2>
+                                <p>площадь складских помещений</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <section>
@@ -564,7 +583,7 @@
                         и выгодно.</p>
                 </div>
                 <div class="main__partners">
-                    <div class="partners__cards-top">
+                    <div class="partners__cards">
                         <div class="partners__card1">
                             <div class="card__title1">
                                 <h2>птицефабрика</h2>
@@ -589,8 +608,7 @@
                         <div class="partners__card6">
                             <img src="images/partner__img6-logo.png" alt="">
                         </div>
-                    </div>
-                    <div class="partners__cards-bottom">
+
                         <div class="partners__card7">
                             <div class="card__title7">
                                 <h2>ООО</h2>
@@ -663,8 +681,7 @@
                             <h2 class="partnership__card-title color__green">улучшение рациона</h2>
                             <p class="partnership__card-desc">Немедленно отреагируем на изменение рациона и произведем корректировки.</p>
                         </div>
-                    </div>
-                    <div class="partnership__cards-bottom">
+
                         <div class="partnership__card-bottom yellow-fl">
                             <i class="icon-check-circle1 color__orange"></i>
                             <h2 class="partnership__card-title color__green">полная свобода</h2>
@@ -743,30 +760,38 @@
                 <div class="container">
                     <div class="actual__news">
                         <p class="main__description news__desc">Актуальные статьи, информация, отзывы в нашем блоге</p>
-                        <div class="actual__news-cards">
-                            <div class="actual__news-card">
+                        <div class="actual__news-cards slideshow ">
+                            <div class="actual__news-card mySlides fade ">
                                 <img src="images/news__card-img1.png" alt="">
                                 <h2 class="actual__news-title">Новые продукты для животноводства</h2>
                                 <p class="actual__news-desc">Свердловская область вошла в десятку субьектов РФ по производству</p>
                             </div>
-                            <div class="actual__news-card">
+                            <div class="actual__news-card mySlides fade ">
                                 <img src="images/news__card-img2.png" alt="">
                                 <h2 class="actual__news-title">Новые продукты для животноводства</h2>
                                 <p class="actual__news-desc">Свердловская область вошла в десятку субьектов РФ по производству</p>
                             </div>
-                            <div class="actual__news-card">
+                            <div class="actual__news-card mySlides fade ">
                                 <img src="images/news__card-img3.png" alt="">
                                 <h2 class="actual__news-title">Новые продукты для животноводства</h2>
                                 <p class="actual__news-desc">Свердловская область вошла в десятку субьектов РФ по производству</p>
                             </div>
-                            <div class="actual__news-card">
+                            <div class="actual__news-card mySlides fade ">
                                 <img src="images/news__card-img4.png" alt="">
                                 <h2 class="actual__news-title">Новые продукты для животноводства</h2>
                                 <p class="actual__news-desc">Свердловская область вошла в десятку субьектов РФ по производству</p>
                             </div>
+                            <a class="prev " onclick="plusSlides(-1) ">&#10094;</a>
+                            <a class="next " onclick="plusSlides(1) ">&#10095;</a>
                         </div>
                         <a href="#" class="read__news-btn input__form-btn">Читать в блоге</a>
                     </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
         </section>
