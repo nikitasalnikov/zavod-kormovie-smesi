@@ -9,7 +9,10 @@ $(function() {
 
 });
 
-document.querySelector('.header__list-btn').addEventListener('click', function() {
+document.querySelector('.header__list-btn, .burger__list-btn').addEventListener('click', function() {
+    document.querySelector('.modal').classList.add('open');
+});
+document.querySelector('.burger__list-btn').addEventListener('click', function() {
     document.querySelector('.modal').classList.add('open');
 });
 
@@ -132,7 +135,7 @@ window.addEventListener('resize', function() {
 /*slides end*/
 
 document.querySelector('.burger__menu').addEventListener('click', function() {
-    var divs = document.querySelectorAll('.header__nav-lists, .header__nav-list, .header__list-btn, .burger__menu, .header__nav-bg');
+    var divs = document.querySelectorAll('.header__nav-lists, .header__nav-list, .burger__list-btn, .burger__menu, .header__nav-bg');
     for (var i = 0; i < divs.length; i++) {
         divs[i].classList.toggle('menu__active');
     }
