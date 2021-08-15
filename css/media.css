@@ -460,6 +460,9 @@
             width: 167px;
             height: 167px;
         }
+        .partners__card10 img {
+            padding: 70px 27px;
+        }
         .card__title1 h2 {
             font-size: 16px;
         }
@@ -490,6 +493,13 @@
         .form__btn {
             padding-left: 20px;
             padding-right: 20px;
+        }
+        .form__btn p {
+            left: 47%;
+            font-size: 15px;
+        }
+        .form__btn p span {
+            font-size: 15px;
         }
         .delivery__btn {
             padding: 23px 83px;
@@ -556,8 +566,8 @@
         }
         .main__connection-btns {
             position: absolute;
-            bottom: 40px;
-            left: 40px;
+            bottom: -140px;
+            left: 0;
         }
         .order__call {
             height: 67%;
@@ -593,13 +603,15 @@
         }
         .main__news-title {
             margin-left: 20px;
+            padding-top: 50px;
         }
         .news__desc {
             margin-left: 0;
         }
         .read__news-btn {
-            width: 381px;
-            left: 25%;
+            width: 281px;
+            left: 33%;
+            bottom: 0;
         }
         .footer__info {
             flex-direction: column-reverse;
@@ -624,75 +636,35 @@
             display: block;
         }
         /*slides start*/
-        .slideshow {
-            max-width: 1000px;
-            width: 100%;
+        .slider {
+            width: 750px;
+            height: 435px;
+            overflow: hidden;
+        }
+        .slider__line {
+            height: max-content;
+            width: 1200px;
             position: relative;
-            justify-content: center;
-            margin-bottom: 15px;
+            left: 0;
+            transition: all ease 1s;
+            margin-left: 10px;
         }
-        .mySlides {
-            display: none;
-        }
-        .prev {
-            cursor: pointer;
-            position: absolute;
-            top: 45%;
-            color: rgb(197 248 245);
-            font-weight: bold;
-            font-size: 25px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            margin-right: 260px;
-        }
-        .next {
-            cursor: pointer;
-            margin-left: 255px;
-            top: 45%;
-            font-weight: bold;
-            font-size: 25px;
-            color: rgb(197 248 245);
-            border-radius: 3px 0 0 3px;
-        }
-        .prev:hover,
-        .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
+        .slider__next,
+        .slider__prev {
+            background: none;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
+            border: 1px solid black;
         }
-        .active,
-        .dot:hover {
-            background-color: #717171;
+        .slider__next {
+            right: 20px;
+            position: absolute;
+            bottom: 15px;
         }
-        .fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
-        @-webkit-keyframes fade {
-            from {
-                opacity: .4
-            }
-            to {
-                opacity: 1
-            }
-        }
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-            to {
-                opacity: 1
-            }
+        .slider__prev {
+            position: absolute;
+            bottom: 15px;
         }
         /*slides end*/
         .header__nav-list:not(:last-child):after {
@@ -1206,7 +1178,7 @@
             padding-top: 127px;
         }
         .lider__text {
-            width: 252px;
+            width: 100%;
             font-size: 13px;
             margin-right: 20px;
         }
@@ -1382,13 +1354,7 @@
         .main__partners {
             padding-left: 20px;
         }
-        .sliders__icons {
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .slider__prev {
+        /* .slider__prev {
             left: 20px;
             font-size: 20px !important;
             color: #8D8D8D;
@@ -1397,7 +1363,7 @@
             right: 20px;
             font-size: 40px;
             color: #8D8D8D;
-        }
+        } */
         .delivery__form input {
             width: 280px;
         }
@@ -1413,6 +1379,9 @@
         .form__btn p {
             font-size: 13px;
             text-align: center;
+            width: 100%;
+            left: -15px;
+            bottom: 185px;
         }
         .map_point {
             margin-bottom: 47.5%;
@@ -1545,8 +1514,17 @@
             border: 25px solid transparent;
             border-right: 15px solid var(--white);
         }
-        .slideshow {
-            padding-left: 20px;
+        .slider {
+            width: 300px;
+            height: max-content;
+            overflow: hidden;
+        }
+        .slider__line {
+            height: max-content;
+            width: 1156px;
+            position: relative;
+            margin-left: 40px;
+            transition: all ease 1s;
         }
         .read__news-btn {
             left: 20px;
