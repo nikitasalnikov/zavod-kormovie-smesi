@@ -35,7 +35,7 @@
     }
     
     .header {
-        background-image: url(../images/header__bg.png);
+        background-image: url(../images/header__bg.webp);
         height: 798px;
     }
     
@@ -1310,6 +1310,11 @@
         flex-wrap: wrap;
     }
     
+    .partners__slider-next,
+    .partners__slider-prev {
+        display: none;
+    }
+    
     .partners__card1,
     .partners__card2,
     .partners__card3,
@@ -1526,7 +1531,8 @@
         border-radius: 5px;
         width: 182px;
         height: 186px;
-        padding: 82px 33px;
+        padding: 70px 33px;
+        text-align: center;
     }
     
     .partners__card12 {
@@ -1544,7 +1550,8 @@
         border-radius: 5px;
         width: 182px;
         height: 186px;
-        padding: 82px 40px;
+        padding: 70px 40px;
+        text-align: center;
     }
     
     .sliders__icons {
@@ -1984,10 +1991,9 @@
         left: 40%;
     }
     
-    .left,
-    .right {
+    .slider__next,
+    .slider__prev {
         display: none;
-        font-size: 48px !important;
     }
     
     .right {

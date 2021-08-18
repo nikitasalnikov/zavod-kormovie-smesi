@@ -1,15 +1,20 @@
-$(function() {
+$(window).scroll(function() {
+    var el = $('.skill_per');
+    if ($(this).scrollTop() > el.offset().top - 500) {
+        $(function() {
 
-    $(".skill_per").each(function() {
-        $this = $(this);
-        var per = $(this).attr("per");
-        $this.css("width", per + "%");
-        $this.find(".value").text(per + "%").css("opacity", "1");
-    });
+            $(".skill_per").each(function() {
+                $this = $(this);
+                var per = $(this).attr("per");
+                $this.css("width", per + "%");
+                $this.find(".value").text(per + "%").css("opacity", "1");
+            });
 
+        });
+    }
 });
 
-document.querySelector('.header__list-btn, .burger__list-btn').addEventListener('click', function() {
+document.querySelector('.header__list-btn').addEventListener('click', function() {
     document.querySelector('.modal').classList.add('open');
 });
 document.querySelector('.burger__list-btn').addEventListener('click', function() {
@@ -82,6 +87,27 @@ $(function() {
     })
     /*accordeon end*/
 
+/*partners slides*/
+let slideTop = 0;
+const partnersCards = document.querySelector('.partners__cards');
+
+document.querySelector('.partners__slider-next').addEventListener('click', function() {
+    slideTop = slideTop + 305;
+    if (slideTop > 610) {
+        slideTop = 0;
+    }
+    partnersCards.style.top = -slideTop + 'px';
+});
+document.querySelector('.partners__slider-prev').addEventListener('click', function() {
+    slideTop = slideTop - 305;
+    if (slideTop < 0) {
+        slideTop = 610;
+    }
+    partnersCards.style.top = -slideTop + 'px';
+});
+/*partners slides end*/
+
+
 /*slides start*/
 let offset = 0; //смещение от левого края
 const sliderLine = document.querySelector('.slider__line');
@@ -90,8 +116,8 @@ const isMobile = () => window.innerWidth <= 320;
 
 document.querySelector('.slider__next').addEventListener('click', function() {
     if (isMobile()) {
-        offset = offset + 304;
-        if (offset > 912) offset = 0;
+        offset = offset + 310;
+        if (offset > 930) offset = 0;
     } else {
         offset = offset + 500;
         if (offset > 500) offset = 0;
@@ -100,8 +126,8 @@ document.querySelector('.slider__next').addEventListener('click', function() {
 });
 document.querySelector('.slider__prev').addEventListener('click', function() {
     if (isMobile()) {
-        offset = offset - 304;
-        if (offset < 0) offset = 912;
+        offset = offset - 310;
+        if (offset < 0) offset = 930;
     } else {
         offset = offset - 500;
         if (offset < 0) offset = 500;
